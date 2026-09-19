@@ -200,7 +200,16 @@
     "cta_system_desc": "版本详情与管理中心信息。",
     "window_m": "{{minutes}} 分钟",
     "window_h": "{{hours}} 小时",
-    "window_hm": "{{hours}} 小时 {{minutes}} 分"
+    "window_hm": "{{hours}} 小时 {{minutes}} 分",
+    "cache_eyebrow": "提示缓存",
+    "cache_title": "各模型缓存命中率",
+    "cache_description": "最近 {{hours}} 小时内各模型的 token 与请求两种口径的提示缓存命中率。",
+    "cache_empty": "暂未记录到用量。",
+    "cache_requests": "次请求",
+    "cache_token_rate": "token 命中率",
+    "cache_request_rate": "请求命中 {{value}}",
+    "cache_tokens_meta": "缓存读取 {{read}} · 未命中 {{uncached}}",
+    "cache_spark_label": "{{model}} 每小时缓存命中率"
   },
   "basic_settings": {
     "debug_enable": "启用调试模式",

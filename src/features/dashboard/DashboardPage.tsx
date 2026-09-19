@@ -17,6 +17,7 @@ import { LiveWire } from './components/LiveWire';
 import { Meter } from './components/Meter';
 import { Sparkline } from './components/Sparkline';
 import { ThroughputChart } from './components/ThroughputChart';
+import { ModelCacheSection } from './components/ModelCacheSection';
 import { useCountUp, useRevealGroup, useRevealOnScroll } from '@/hooks/motion';
 import { providerLabel, splitWindowMinutes, toneForSuccessRate, type MeterTone } from './utils';
 import styles from './dashboard.module.scss';
@@ -404,6 +405,9 @@ export function DashboardPage() {
           )}
         </div>
       </section>
+
+      {/* ---------- Prompt cache hit rates ---------- */}
+      <ModelCacheSection />
 
       {/* ---------- Credential health + runtime ---------- */}
       <section className={styles.detailGrid} ref={detailRef}>
