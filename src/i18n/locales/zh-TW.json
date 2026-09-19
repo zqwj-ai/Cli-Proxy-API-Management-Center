@@ -200,7 +200,16 @@
     "cta_system_desc": "版本詳情與管理中心資訊。",
     "window_m": "{{minutes}} 分鐘",
     "window_h": "{{hours}} 小時",
-    "window_hm": "{{hours}} 小時 {{minutes}} 分"
+    "window_hm": "{{hours}} 小時 {{minutes}} 分",
+    "cache_eyebrow": "提示快取",
+    "cache_title": "各模型快取命中率",
+    "cache_description": "最近 {{hours}} 小時內各模型的 token 與請求兩種口徑的提示快取命中率。",
+    "cache_empty": "尚未記錄到用量。",
+    "cache_requests": "次請求",
+    "cache_token_rate": "token 命中率",
+    "cache_request_rate": "請求命中 {{value}}",
+    "cache_tokens_meta": "快取讀取 {{read}} · 未命中 {{uncached}}",
+    "cache_spark_label": "{{model}} 每小時快取命中率"
   },
   "basic_settings": {
     "debug_enable": "啟用除錯模式",

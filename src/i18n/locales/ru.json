@@ -199,7 +199,16 @@
     "cta_system_desc": "Информация о версии и центре управления.",
     "window_m": "{{minutes}} мин",
     "window_h": "{{hours}} ч",
-    "window_hm": "{{hours}} ч {{minutes}} мин"
+    "window_hm": "{{hours}} ч {{minutes}} мин",
+    "cache_eyebrow": "Кэш промптов",
+    "cache_title": "Доля попаданий в кэш по моделям",
+    "cache_description": "Доля попаданий в кэш промптов по токенам и запросам для каждой модели за последние {{hours}} ч.",
+    "cache_empty": "Данных об использовании пока нет.",
+    "cache_requests": "запросов",
+    "cache_token_rate": "Попадания по токенам",
+    "cache_request_rate": "по запросам {{value}}",
+    "cache_tokens_meta": "из кэша {{read}} · мимо кэша {{uncached}}",
+    "cache_spark_label": "{{model}} — почасовая доля попаданий"
   },
   "basic_settings": {
     "debug_enable": "Включить режим отладки",
